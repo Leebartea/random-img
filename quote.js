@@ -5,7 +5,7 @@ function updateImage() {
   
   var randomImgSrc = "./quote images" + "/quote" + randomFigure + ".webp"
   
-  document.querySelector("img").setAttribute("height", "350px");
+  document.querySelector("img").setAttribute("height", "200px");
   document.querySelector("img").setAttribute("src", randomImgSrc)
 
 } 
